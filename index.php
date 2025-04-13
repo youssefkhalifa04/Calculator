@@ -41,6 +41,10 @@
           <button type="button" onclick="changeScreen('0')" class="rounded-xl bg-gray-500 text-white text-2xl w-full h-16 rounded-bl-xl">0</button>
           <button type="button" onclick="changeScreen('.')" class="rounded-xl bg-gray-500 text-white text-2xl w-full h-16">.</button>
           <button type="submit" class=" rounded-xl bg-gray-500 text-white text-2xl w-full h-16">=</button>
+          <div class="rounded-xl  w-full h-16 flex gap-1">
+          <button type="button" onclick="changeScreen('(')" class="rounded-xl bg-gray-500 text-white text-2xl w-1/2 h-full ">(</button>
+          <button type="button" onclick="changeScreen(')')" class="rounded-xl bg-gray-500 text-white text-2xl w-1/2 h-full ">)</button>
+          </div>
         </div>
       </form>
     </div>
