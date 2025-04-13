@@ -6,13 +6,14 @@
   <title>Calculator</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class=" select-none">
   <center>
+    <h1 class="text-4xl font-bold mt-10 underline">Calculator</h1>
     <?php
         $result = $_GET['result'] ?? '';
     ?>
 
-    <div class="bg-gray-900 rounded-3xl w-1/6 mt-28 p-2">
+    <div class="bg-gray-900 rounded-3xl w-1/6 mt-20 p-2">
       <form id="calcForm" action="include/calculatorHandler.php" method="post">
         <div class="w-full h-20 mb-2 text-right">
           <input type="text" name="screen" id="screen" value="<?php echo htmlspecialchars($result); ?>" readonly placeholder="0" class="w-full h-full p-4 text-right bg-gray-800 text-white text-3xl rounded-t-xl">

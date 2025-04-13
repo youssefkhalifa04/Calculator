@@ -13,8 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     elseif (
         preg_match('/^[0-9\s()+\-*\/%.]+$/', $expression) &&    // only allowed characters
         !preg_match('/[+\-*\/%]{2,}/', $expression) &&          // no repeated operators
-        !preg_match('/[\/*+\-]$/', trim($expression)) &&        // doesn't end with operator
-        !preg_match('/^[\/*+\-]/', trim($expression))           // doesn't start with operator
+        !preg_match('/[\/*+\-]$/', trim($expression))        // doesn't start with operator
     ) {
         try {
             $result = eval("return $expression;");
