@@ -8,7 +8,7 @@
 </head>
 <body>
   <center>
-    <<?php
+    <?php
         $result = $_GET['result'] ?? '';
     ?>
 
