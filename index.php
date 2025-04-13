@@ -40,7 +40,7 @@
 
           <button type="button" onclick="changeScreen('0')" class="rounded-xl bg-gray-500 text-white text-2xl w-full h-16 rounded-bl-xl">0</button>
           <button type="button" onclick="changeScreen('.')" class="rounded-xl bg-gray-500 text-white text-2xl w-full h-16">.</button>
-          <button type="submit" class="bg-gray-500 text-white text-2xl w-full h-16">=</button>
+          <button type="submit" class=" rounded-xl bg-gray-500 text-white text-2xl w-full h-16">=</button>
         </div>
       </form>
     </div>
